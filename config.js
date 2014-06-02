@@ -63,10 +63,11 @@ config = {
         },
         server: {
             // Host to be passed to node's `net.Server#listen()`
-            host: '127.0.0.1',
+            host: '0.0.0.0',
             // Port to be passed to node's `net.Server#listen()`, for iisnode set this to `process.env.PORT`
             port: process.env.PORT
-        }
+        },
+        fileStorage: false
     },
 
     // **Developers only need to edit below here**
