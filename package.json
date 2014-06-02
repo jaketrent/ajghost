@@ -24,6 +24,7 @@
   "main": "./core/index",
   "scripts": {
     "start": "node index",
+    "postinstall": "./node_modules/bower/bin/bower install",
     "test": "./node_modules/.bin/grunt validate --verbose"
   },
   "engines": {
