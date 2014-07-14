@@ -452,12 +452,13 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     display: table;
     width: 100%;
-    height: 60%;
+    height: 40%;
     margin-bottom: 5rem;
     text-align: center;
     color: #fff;
     background: #303538 no-repeat center center;
     background-size: cover;
+    background-position: center;
 }
 
 .blog-logo {

@@ -3,3 +3,4 @@ npm-debug.log
 content/apps
 content/data
 content/images
+.DS_Store
