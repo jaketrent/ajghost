@@ -48,7 +48,7 @@ config = {
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
     production: {
-        url: 'http://ajghost.herokuapp.com',
+        url: 'http://aprilandjake.com',
         mail: {},
         database: {
             client: 'postgres',
